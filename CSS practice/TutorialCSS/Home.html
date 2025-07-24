@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+
+        <link rel="stylesheet" href="HomeStyle.css"/>
+
+        <!--Internal CSS-->
+        <style>
+            p{
+                    color: blueviolet;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h1>Predefined Color</h1>
+        <h2>RGB Color</h2>
+        <h3>RGBA Color</h3>
+        <h4>HSL Color = Hue, Saturation, Lightness</h4>
+        <h5>HSLA Color</h5>
+        <h6>Hex Color</h6>
+
+        <!--Uses Inline CSS just for demonstration, not recommended-->
+        <h2 style="font-size: 36px;">Absolute Length</h2>
+        <h2 style="font-size: 5vw;">Relative Length</h2> <!--vw means relative to the width of the viewport-->
+
+        <!--Uses em which calculates the font size by multiplying 
+        the parent font size and the specified em (look at css)-->
+        <div style="font-size: 16px;">
+            <p style="font-size: 1.5em;">This text is 24px (16px * 1.5).</p>
+            <p style="font-size: 2em;">This text is 32px (16px * 2).</p>
+          </div>
+
+          <div style="font-size: 16px;"> <!--Starts at 16px-->
+            <div style="font-size: 2em;"><!-- This div now has a font-size of 32px (16px * 2) -->
+              <p style="font-size: 1.5em;">This text is 48px (16px * 2 * 1.5).</p>
+            </div>
+          </div>
+
+          <!--rem follows the same idea but only on the root parent only like html and doesn't stack like em-->
+          <!--relative like % or vw is mostly used for layouts while em and rem mostly rem is used for fonts-->
+
+          <header>
+            <p>Hello World</p>
+          </header>
+
+          <footer>
+            <p>Hello World</p>
+          </footer>
+
+    </body>
+</html>

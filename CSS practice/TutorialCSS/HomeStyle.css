@@ -1,0 +1,45 @@
+h1{
+    color: crimson;
+}
+
+h2{
+    color: rgb(100, 255, 0)
+}
+
+h3{
+    color:rgba(255, 0, 0, 0.2)
+}
+
+h4{
+    color:hsl(200, 60%, 50%)
+}
+
+h5{
+    color:hsla(150, 60%, 50%, 0.3)
+}
+
+h6{
+    color: #654321;
+}
+
+header{ 
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-style: dashed;
+    border-radius: 50px;
+    background: yellow;
+    box-shadow: -10px 10px 10px blue; /*works like text-shadow and you can actually remove border styles with this to have a cool effect*/
+
+    /*can also be box-shadow: -10px 10px 10px 10px blue; as the last 10 is the spread 
+    or add inset to the end to invert the shadow*/
+}
+
+footer{
+    padding: 25px 10px; /*for padding with left and right it would look like as 10px 25px 15px 20px*/
+    margin: 10px;
+    border: 2px solid black;
+    border-style: dotted;
+    background: yellow;
+    box-shadow: -10px 10px 10px red, 10px -10px 10px blue; /*to have more shadows or use box shadow css generator*/
+}
