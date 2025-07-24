@@ -1,0 +1,22 @@
+header{
+    background-image: url(REALITY_PICS.png);
+    height: 800px;
+    background-repeat: repeat-y;/*there's also repeat, repeat-x, space, no-repeat*/
+    background-attachment: fixed;
+}
+
+footer{
+    background-image: url(https://images.pexels.com/photos/1497148/pexels-photo-1497148.jpeg?cs=srgb&dl=pexels-alexfu-1497148.jpg&fm=jpg);
+    height: 800px;
+    background-repeat: round;
+    background-position: center right;
+}
+
+div{
+    background-image: url(REALITY_PICS.png);
+    background-size: contain;/*there's also other more like cover, 100% 100%, 100px 400px and more*/
+}
+
+p{
+    color: rgb(0, 255, 255);
+}

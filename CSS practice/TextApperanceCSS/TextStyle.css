@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+h1{
+    text-transform: capitalize;
+    text-indent: 100px;
+    position: relative;
+    bottom: -30px;
+}
+
+h2{
+    text-shadow: -10px 10px 5px blue;
+    text-align: center;
+}
+
+h3{
+    background-color: beige;
+    display: inline; /*by default h3 and others more are block, display:none can be used to hide something temporarily*/
+    /* visibility: hidden; makes it invisible x*/
+}
+
+h4{
+    background-color: beige;
+    width: 500px;
+    display: inline-block;
+}
+
+span{
+    background-color: beige;
+    position: sticky;
+    top: 10px;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    position: relative;
+}
+
+/*relative parent with absolute child allows cool designing features*/
+
+h6{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+#text1{
+    text-align: left;
+    word-spacing: 40px;
+    text-align-last: center;
+}
+
+#text2{
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-family: "Nunito", serif;
+    font-weight: 200;
+}
+
+#text3{
+    white-space: nowrap;
+    font-variant: small-caps;
+}
+
+#text4{
+    white-space: pre;
+    font-style: italic;
+}
+
+button{
+    background-color: burlywood;
+    width: 50px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color:red;
+    transition: 2s;
+    width: 50px;
+}
+
+button:active{
+    background-color: cadetblue;
+    color:black;
+    width: 200px;
+    transition: 3s 
+}
+
+#specific{
+    background-color: burlywood;
+    width: 110px;
+}
+
+#specific:hover{
+    background-color: blueviolet;
+    color:red;
+    transition:2s 1s; /*the 2 is the transition the 1 is the delay,*/
+    width: 110px;
+}
+
+#specific:active{
+    background-color: cadetblue;
+    color:black;
+    width: 300px;
+    transition:ease-in width 3s; /*can also be transition: width 3s, background-color 5s so that the transitions has different timing*/
+    /*ease-in is the timing of the transition, there are many, ease-in is slow-fast*/
+
+}
+
+input:focus{
+    border: 4px solid green;
+    outline: none;
+    background-color: aquamarine;
+}
+
+input:checked{
+    scale: 1.5;
+}
+
+/*
+button:disabled{
+    opacity: 0.2;
+}
+*/

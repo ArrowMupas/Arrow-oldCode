@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: red;
+    padding: 10px; 
+    box-shadow: 0 0 5px 3px black;
+}
+
+.logo{
+    display: inline-block;
+}
+
+h2{
+    display: inline-block;
+    margin: 0;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -10px;
+    left: 15px;
+}
+
+.links{
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+#navbtn{
+    background-color: green;
+    padding: 10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border-radius: 40px;
+    color: white;
+}
+
+#navbtn:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    color: yellow;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    color: greenyellow;
+}
