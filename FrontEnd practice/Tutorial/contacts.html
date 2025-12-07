@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacts</title>
+    </head>
+    <body>
+
+        <style>
+            form{
+                border-color: blue;
+                border-width: 10px;
+            }
+        </style>
+
+        <form>
+            <input type="text" value="Hello World"/><br>
+            <input type="text" value="This is readonly!" readonly/><br>
+            <input type="text" value="disabled" disabled/><br>
+            <input type="text" placeholder="required" required/><br>
+            <input type="text" placeholder="need 3 but can only input 5" required minlength="3" maxlength="5"/><br>
+
+            <input type="email" placeholder="needs email with @" required size="40"/><br>
+            <input type="password" placeholder="password" required size="50"/><br>
+            <input type="number" placeholder="number with 2 steps" step="2"/><br>
+
+            <input type="tel" placeholder="telephone" /><br>
+            <input type="search" placeholder="for searching" /><br>
+            <input type="url" placeholder="URL (with https:/ and .com)" /><br>
+            
+            <input type="submit"/><br>
+            <input type="submit" value="Disabled" disabled/><br>
+        </form>
+
+        <br>
+
+        <form>
+            <input type="date" value="2004-11-10" required/><br>
+            <input type="date" value="2004-11-10" min="2000-11-10" max="2025-01-01"/><br>
+            <input type="datetime-local" placeholder="date" required/><br>
+            <input type="time" required/><br>
+            <input type="week" required/><br>
+            <input type="month"  required/><br>
+            
+            <input type="submit"/><br>
+        </form>
+
+        <br>
+        
+        <form>
+            <input type="file" multiple/><br>  
+            <input type="file" accept="image/*"/><br>   
+
+            <input id="one" name="z" type="checkbox"/>
+            <label for="one">Checkbox with clickable label</label> <br>
+ 
+            <input id="two" name="z" type="checkbox" checked/>
+            <label>Checkbox only</label><br>  
+
+            <br>
+            
+            <input id="three" name="a" type="radio"/>
+            <label for="three">Radio with clickable label</label><br>  
+
+            <input id="three" name="a" type="radio" checked/>
+            <label>Radio only</label><br>  
+
+            <input id="three" name="a" type="radio"/>
+            <label>Radio maybe</label><br>  
+
+            <input type="submit"/>
+            <input type="button" value="hahaha"/>
+            <input type="reset" value="reset"/><br>
+
+            <br>
+
+            <input type="range" value="50" min="0" max="100"/>
+            <label>range slider</label><br>
+
+            <input type="color" value="#b2b2b2"/>
+            <label>color chooser</label><br>
+
+            <br>
+
+            <!--can be required and disabled-->
+            <label for="Select">Have Fun: </label>
+            <select id="Select" name="Option">
+                <optgroup label="Games">
+                    <option value="Tekken">Tekken</option>
+                    <option value="Wildrift">Wildrift</option>
+                    <option value="ML">ML</option>
+                    <option value="Project Zomboid">Project Zomboid</option>
+                </optgroup>
+                <optgroup label="Entertainments">
+                    <option value="Tekken">Tekken</option>
+                    <option value="Wildrift">Wildrift</option>
+                    <option value="ML">ML</option>
+                    <option value="Project Zomboid">Project Zomboid</option>
+                </optgroup>
+                
+            </select><br>
+
+            <select name="Games" multiple size="2">
+                <option value="Tekken">Tekken</option>
+                <option value="Wildrift">Wildrift</option>
+                <option value="ML">ML</option>
+                <option value="Project Zomboid">Project Zomboid</option>
+            </select>
+        </form>
+
+        <br>
+
+        <!--can also be disabled, readonly, have a placeholder-->
+        <form>
+            <textarea rows="3" name="passedToServer" required cols="50px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </textarea>
+        </form>
+    </body>
+</html>
