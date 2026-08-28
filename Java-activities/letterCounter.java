@@ -13,5 +13,5 @@ public class LetterCounter {
 			x++; 
     }
     System.out.println(y);
-}
+    }
 }

@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class Factorial {
+
+public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         for (int p = 0; p < 5; p++){

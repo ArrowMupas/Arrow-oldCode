@@ -1,4 +1,4 @@
-class ArrayLoopFill {
+publicclass ArrayLoopFill {
     public static void main(String[] args) {
         int[][] temp = new int[3][5];
         int c = 1;
