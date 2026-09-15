@@ -5,7 +5,7 @@ public class songs {
 	LinkedList<String> songsList = new LinkedList<String>();
 
 	public void setSongs(String song) {
-		songsList.add(song);
+		this.songsList.add(song);
 	}
 
 	public LinkedList<String> getSongs() {

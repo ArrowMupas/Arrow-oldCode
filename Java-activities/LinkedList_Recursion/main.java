@@ -53,4 +53,11 @@ public class mainLLR {
         	Input(n - 1);
         }	
 	}
+
+	public void printPlaylistRecursion(int n) {
+		if (n < p.getPlaylist().size()) {
+			System.out.println(p.getPlaylist().get(n));
+			printPlaylistRecursion(n + 1);
+		}
+	}
 }

@@ -5,7 +5,7 @@ public class playlist {
 	LinkedList<String> playlist = new LinkedList<String>();
 
 	public void setPlaylist(String songEntry) {
-		playlist.add(songEntry);
+		this.playlist.add(songEntry);
 	}
 
 	public LinkedList<String> getPlaylist() {
